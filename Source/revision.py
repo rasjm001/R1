@@ -15,7 +15,9 @@ class Person:
 
     def method1(self):
         print("My name is ", self.name, " I am ", self.age, " and a ", self.gender)
-
+        returnValue = "My name is ", self.name , " I am " , self.age , " and a " , self.gender
+        print("this is the value to return", returnValue)
+        return returnValue
 
 
 #create and object from the class
