@@ -36,6 +36,6 @@ class TestPerson:
         assert True
 
 class TestMe:
-    def test_three():
+    def test_three(self):
         assert True
 
